@@ -25,44 +25,40 @@ header h1 {
 	font-family: 'Coming Soon', cursive;
 }
 
+#top-nav a {
+	font-size: 1.25em;
+}
+
 .element {
 	font-family: 'Rubik', sans-serif;
 	font-size: 2.5em;
-}
-
-#top-nav a {
-	font-size: 1.25em;
 }
 
 
 
 /* colors */
 
-header h1 {
-	color: #46494C;
-}
-#top-nav a {
+
+.color-light {
 	color: #fff;
+}
+
+.color-dark {
+	color: #46494C;
 }
 
 #top-nav a:hover, #top-nav a.selected {
 	color: #78CAD2;
 }
 
-.element {
-	color: #46494C;
-}
-
-.home-white, .home-white a {
-	color: #fff;
-}
-
 
 
 /* header & nav */
 
- header {
-	width: 100%;
+#wrapper {
+	background-image: url('../img/background.jpg');
+	background-size: cover;
+	background-position: 50% 20%;
 }
 
 #top-nav {
@@ -94,12 +90,6 @@ header h1 {
 
 
 /* intro */
-
-#wrapper {
-	background-image: url('http://imgur.com/WYeL0T6.jpg');
-	background-size: cover;
-	background-position: 50% 20%;
-}
 
 #intro {
 	margin-top: 135px;
@@ -138,24 +128,24 @@ header h1 {
 
 /* services */
 
-#services-box {
+.services-box {
 	margin: 80px 0 130px 0;
 	text-align: center;
 	display: inline-block;
 	width: 32.9%;
 }
 
-#services-box img {
+.services-box img {
 	margin: auto;
 	width: 55%;
 	display: block;
 }
 
-#services-box h3 {
+.services-box h3 {
 	margin-top: 20px;
 }
 
-#services-box p {
+.services-box p {
 	margin-top: 10px;
 }
 
